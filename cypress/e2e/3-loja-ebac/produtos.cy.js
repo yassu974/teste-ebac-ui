@@ -14,7 +14,7 @@ describe('Funcionalidade: Produtos', () => {
             .contains('Aether Gym Pant')
             .click()
 
-        cy.get('#tab-title-description > a').should('contain' , 'Descrição')
+        cy.get('#tab-title-description > a').should('contain','Descrição')
 
     });
 });
