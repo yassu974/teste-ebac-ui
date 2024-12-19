@@ -10,7 +10,7 @@ describe('Funcionalidade: Detalhes da conta', () => {
     });
 
     it('Deve completar detalhes da conta com sucesso', () => {
-        cy.detalhesConta('Renan','Ferreira','renan.ferreira')
+        cy.detalhesConta('Renan','Ferreira','renan.teste-5022')
         cy.get('.woocommerce-message').should('contain','Detalhes da conta modificados com sucesso.')
     });
 });
